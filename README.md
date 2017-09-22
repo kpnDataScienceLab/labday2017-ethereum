@@ -12,8 +12,8 @@ To understand some of the capabilities of the Ethereum smart contract
 
 ## Requirements
 
-* geth
-* mist
+* [geth and tools](https://geth.ethereum.org/downloads/)
+* [mist](https://github.com/ethereum/mist/releases)
 * rinkeby light chain data (Neo-Bart provides on usb key).
 * Mac or Linux laptop or vm. Windows should work, but I'm not able to help.
 
