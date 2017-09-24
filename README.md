@@ -67,6 +67,11 @@ _While writing this, this site was down, but I do have some rinkeby Ethers in an
 The _mining_ menu item in Mist is disabled because we're a _light client_. This means we don't have the full chain on our
 local machine, just a [merkle tree][3] that can prove blocks
 
+### Mining
+If you start geth without the `--syncmode light` you create a full node. This will take a few GB and a lot more time to download the whole chain, but this allows you to do _mining_. Don't do this on the Lab day!
+
+However, if you feel like it, do this at home, and you can start mining via the Mist user interface. I have no idea how fast you'll be getting some ethers, but I'm trying right now.
+
 # The Voting Tutorial
 
 We're going to follow [this tutorial][7]
