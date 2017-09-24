@@ -40,7 +40,7 @@ Rinkeby is the 4th ethereum test net, so we use play money.
     Repeat passphrase: 
     Address: {11026e8797350c49105a3622f14dbfe28cf6e5ec}
 
-This action has created an account. The account consists of a private key file in ~/.ethereum/keystore
+This action has created an account. The account consists of a private key file in ~/.ethereum/rinkeby/keystore
 
     $> ls ~/.ethereum/rinkeby/keystore  
     UTC--2017-09-24T09-46-12.855207027Z--11026e8797350c49105a3622f14dbfe28cf6e5ec
@@ -83,6 +83,8 @@ Up to the genii of DatascienceLab :-)
 * [ENS Ethereum naming service][5]
 * [Solidity by example][6]
 * [Voting tutorial][7]
+* [Rinkeby blockchain explorer][8]
+* [Ropsten testnet faucet][9]
 
 [1]: https://github.com/ethereum/go-ethereum/wiki/Managing-your-accounts
 [2]: http://www.rinkeby.io/
@@ -91,3 +93,5 @@ Up to the genii of DatascienceLab :-)
 [5]: https://github.com/ethereum/ens/blob/master/docs/userguide.rst
 [6]: http://solidity.readthedocs.io/en/develop/solidity-by-example.html
 [7]: https://medium.com/@mvmurthy/full-stack-hello-world-voting-ethereum-dapp-tutorial-part-1-40d2d0d807c2
+[8]: https://rinkeby.etherscan.io/
+[9]: http://faucet.ropsten.be:3001/
