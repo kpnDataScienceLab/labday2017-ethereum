@@ -71,6 +71,7 @@ local machine, just a [merkle tree][3] that can prove blocks
 If you start geth without the `--syncmode light` you create a full node. This will take a few GB and a lot more time to download the whole chain, but this allows you to do _mining_. Don't do this on the Lab day!
 
 However, if you feel like it, do this at home, and you can start mining via the Mist user interface. I have no idea how fast you'll be getting some ethers, but I'm trying right now.
+_I'm not even sure if this works, because Rinkeby is a Proof Of Authority_ network, instead of the old Ropsten _Proof of Work_ system.
 
 # The Voting Tutorial
 
