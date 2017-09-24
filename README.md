@@ -64,5 +64,30 @@ Browse there, click the faucet tap, and fill in your address.
 
 _While writing this, this site was down, but I do have some rinkeby Ethers in an account, so I'll make sure they're available on labday._
 
+The _mining_ menu item in Mist is disabled because we're a _light client_. This means we don't have the full chain on our
+local machine, just a [merkle tree][3] that can prove blocks
+
+# The Voting Tutorial
+
+We're going to follow [this tutorial][7]
+
+# What's next
+Up to the genii of DatascienceLab :-)
+
+# Links
+
+* [geth accounts][1]
+* [rinkeby.io][2]
+* [merkle trees][3]
+* [myetherwallet online wallet][4]
+* [ENS Ethereum naming service][5]
+* [Solidity by example][6]
+* [Voting tutorial][7]
+
 [1]: https://github.com/ethereum/go-ethereum/wiki/Managing-your-accounts
 [2]: http://www.rinkeby.io/
+[3]: https://en.wikipedia.org/wiki/Merkle_tree
+[4]: https://www.myetherwallet.com
+[5]: https://github.com/ethereum/ens/blob/master/docs/userguide.rst
+[6]: http://solidity.readthedocs.io/en/develop/solidity-by-example.html
+[7]: https://medium.com/@mvmurthy/full-stack-hello-world-voting-ethereum-dapp-tutorial-part-1-40d2d0d807c2
