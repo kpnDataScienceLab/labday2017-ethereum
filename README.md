@@ -15,13 +15,15 @@ To understand some of the capabilities of the Ethereum smart contract
 * [geth and tools](https://geth.ethereum.org/downloads/)
 * [mist](https://github.com/ethereum/mist/releases)
 * rinkeby light chain data (Neo-Bart provides on usb key).
+* [nodejs](https://nodejs.org/en/download/)
 * Mac or Linux laptop or vm. Windows should work, but I'm not able to help.
 
 # Getting Started
 
 Install `geth` 1.7 and `mist` 0.9. Open a couple of terminals, and of we go:
 
-* `geth --syncmode light --rinkeby --rpc`. Wait til this starts showing single count updates. The rinkeby test chain is
+* `geth --syncmode light --rinkeby --rpc --rpcapi="db,eth,net,web3,personal,web3"`.  
+  Wait til this starts showing single count updates. The rinkeby test chain is
   a few 100 MB, so it might take a while.  You can speed this up by asking Bart for his usb key with the Rinkeby test
   chain.
 * _Wait_ for the geth terminal to stabilize.    
