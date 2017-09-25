@@ -109,4 +109,4 @@ Up to the genii of DatascienceLab :-)
 [7]: https://medium.com/@mvmurthy/full-stack-hello-world-voting-ethereum-dapp-tutorial-part-1-40d2d0d807c2
 [8]: https://rinkeby.etherscan.io/
 [9]: http://faucet.ropsten.be:3001/
-[10]: https://github.com/ethereum/go-ethereum/wiki/JavaScript-Console
+[10]: https://github.com/ethereum/go-ethereum/wiki/Management-APIs
