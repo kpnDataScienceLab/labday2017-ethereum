@@ -73,6 +73,11 @@ If you start geth without the `--syncmode light` you create a full node. This wi
 However, if you feel like it, do this at home, and you can start mining via the Mist user interface. I have no idea how fast you'll be getting some ethers, but I'm trying right now.
 _I'm not even sure if this works, because Rinkeby is a Proof Of Authority_ network, instead of the old Ropsten _Proof of Work_ system.
 
+## geth attach
+In order to get a javascript console into a running geth instance, do:
+
+    geth attach ipc:///home/bvdeenen/.ethereum/rinkeby/geth.ipc
+
 # The Voting Tutorial
 
 We're going to follow [this tutorial][7]
