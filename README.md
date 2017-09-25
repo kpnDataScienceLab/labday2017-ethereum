@@ -77,6 +77,8 @@ _I'm not even sure if this works, because Rinkeby is a Proof Of Authority_ netwo
 In order to get a javascript console into a running geth instance, do:
 
     geth attach ipc:///home/bvdeenen/.ethereum/rinkeby/geth.ipc
+    
+[Javascript Console documentation][10]
 
 # The Voting Tutorial
 
@@ -96,6 +98,7 @@ Up to the genii of DatascienceLab :-)
 * [Voting tutorial][7]
 * [Rinkeby blockchain explorer][8]
 * [Ropsten testnet faucet][9]
+* [Geth javascript console][10]
 
 [1]: https://github.com/ethereum/go-ethereum/wiki/Managing-your-accounts
 [2]: http://www.rinkeby.io/
@@ -106,3 +109,4 @@ Up to the genii of DatascienceLab :-)
 [7]: https://medium.com/@mvmurthy/full-stack-hello-world-voting-ethereum-dapp-tutorial-part-1-40d2d0d807c2
 [8]: https://rinkeby.etherscan.io/
 [9]: http://faucet.ropsten.be:3001/
+[10]: https://github.com/ethereum/go-ethereum/wiki/JavaScript-Console
