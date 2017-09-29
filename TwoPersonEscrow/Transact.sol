@@ -26,6 +26,8 @@ contract Transact {
 
     mapping (address => Reputation) public reputation;
     mapping (uint => TransactionState) public transactions;
+    
+    modifier onlyFrom(uint id) { require(msg.sender == transactions[id].from); _ ; }
 
     // reputation is successfull transactions, but penalized by pending transactions
     function getReputation(address add) public constant returns (int) {
@@ -41,9 +43,8 @@ contract Transact {
       Created(id);
     }
     
-    function cancelTransaction(uint id) public {
-        require(transactions[id].state == State.Created &&
-          msg.sender == transactions[id].from);
+    function cancelTransaction(uint id) public onlyFrom(id) {
+        require(transactions[id].state == State.Created);
           
         transactions[id].state = State.Cancelled;
         msg.sender.transfer(transactions[id].amount * 2);
