@@ -16,11 +16,12 @@ To understand some of the capabilities of the Ethereum smart contract
 * [mist](https://github.com/ethereum/mist/releases)
 * rinkeby light chain data (Neo-Bart provides on usb key).
 * [nodejs](https://nodejs.org/en/download/)
+* [solc](https://github.com/ethereum/solidity/releases)
 * Mac or Linux laptop or vm. Windows should work, but I'm not able to help.
 
 # Getting Started
 
-Install `geth` 1.7 and `mist` 0.9. Open a couple of terminals, and of we go:
+Install `geth` 1.7, `solc` 0.4.17  and `mist` 0.9. Open a couple of terminals, and of we go:
 
 * `geth --syncmode light --rinkeby --rpc --rpcapi="db,eth,net,web3,personal,web3"`.  
   Wait til this starts showing single count updates. The rinkeby test chain is
@@ -101,6 +102,7 @@ Up to the genii of DatascienceLab :-)
 * [Rinkeby blockchain explorer][8]
 * [Ropsten testnet faucet][9]
 * [Geth javascript console][10]
+* [July 2017 simple contract example][11]
 
 [1]: https://github.com/ethereum/go-ethereum/wiki/Managing-your-accounts
 [2]: http://www.rinkeby.io/
@@ -112,3 +114,4 @@ Up to the genii of DatascienceLab :-)
 [8]: https://rinkeby.etherscan.io/
 [9]: http://faucet.ropsten.be:3001/
 [10]: https://github.com/ethereum/go-ethereum/wiki/Management-APIs
+[11]: https://alanbuxton.wordpress.com/2017/07/19/first-steps-with-ethereum-private-networks-and-smart-contracts-on-ubuntu-16-04/
